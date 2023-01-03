@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- meta information -->
+	<title>Assignment 1 -Natalie Chan_S10220879H</title>
+	<!-- set character encoding-->
+	<!-- https://en.wikipedia.org/wiki/UTF-8 -->
+	<meta charset="UTF-8">
+	<!--CSS style sheets-->
+    
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="navbar">
+        <a href="index.html">Home</a>
+        <a href="About Us.html">About Us</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+
+    <style>
+.image-list-small {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 640px;
+    padding: 0;
+}
+
+.image-list-small li {
+    display: inline-block;
+    width: 181px;
+    margin: 0 12px 30px;
+}
+
+.image-list-small li > a {
+    display: block;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 137px;
+    margin: 0;
+    padding: 0;
+    border: 4px solid #ffffff;
+    outline: 1px solid #d0d0d0;
+    box-shadow: 0 2px 1px #DDD;
+    transition: .25s;
+}
+
+.image-list-small li img{
+        width: 100%; /* To make the images responsive */
+        height: auto;
+}
+
+.image-list-small li > a:hover{
+        transform: scale(1.1);
+        transition: .25s;
+}
+
+.image-list-small .details {
+    margin-top: 13px;
+}
+
+.image-list-small .details h3 {
+    display: block;
+    font-size: 14px;
+    margin: 0 0 3px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.image-list-small .details h3 a {
+    color: #303030;
+    text-decoration: none;
+}
+
+.image-list-small .details .image-author {
+    display: block;
+    color: #717171;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+@media only screen and (max-wdith: 800px){
+.image-list-small{
+    max-width: 200%;
+ }
+.image-list-small li > a {
+    width:  100%;
+ }
+}
+    </style>
+
+    <ul class="image-list-small">
+        <li>
+            <img src="/ID_S10220879H_Natalie Chan_Assg1_website/img/frontdesk.jpg">
+            <div class="details">
+                <h3 style="font-family: 'Courier New'"><a href="#">Front Desk</a></h3>
+            </div>
+        </li>
+        <li>
+            <img src="/ID_S10220879H_Natalie Chan_Assg1_website/img/gym.jpg">
+            <div class="details">
+                <h3 style="font-family: 'Courier New'"><a href="#">Our Gym Equipments</a></h3>
+            </div>
+        </li>
+        <li>
+            <img src="/ID_S10220879H_Natalie Chan_Assg1_website/img/male toilet.jpg">
+            <div class="details">
+                <h3 style="font-family: 'Courier New'"><a href="#">Male Locker Rooms</a></h3>
+            </div>
+        </li>
+        <li>
+            <img src="/ID_S10220879H_Natalie Chan_Assg1_website/img/female toilet.jpg">
+            <div class="details">
+                <h3 style="font-family: 'Courier New'"><a href="#">Female Locker Rooms</a></h3>
+            </div>
+        </li>
+        <li>
+            <img src="/ID_S10220879H_Natalie Chan_Assg1_website/img/yoga.jpg">
+            <div class="details">
+                <h3 style="font-family: 'Courier New'"><a href="#">Yoga Room</a></h3>
+            </div>
+        </li>
+        <li>
+            <img src="/ID_S10220879H_Natalie Chan_Assg1_website/img/personal trainer.jpg">
+            <div class="details">
+                <h3 style="font-family: 'Courier New'"><a href="#">Our Personal Trainers</a></h3>
+            </div>
+        </li>
+    </ul>
+</body>
